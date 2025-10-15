@@ -1,16 +1,25 @@
-# React + Vite
+# 🎬 CentralMovies  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**By:** Sage Lin  
 
-Currently, two official plugins are available:
+CentralMovies is a full-stack web application that lets users discover and explore movies effortlessly. Built with **React**, **Node.js**, and **AppWrite**, the app integrates the **TMDB API** to deliver detailed movie data and dynamically showcase trending titles based on real user searches.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features  
+- 🔎 **Search Functionality** – Instantly search for any movie and view detailed results including title, rating, language, and overview.  
+- 📈 **Trending Movies** – Displays a live list of trending titles powered by search analytics stored in the AppWrite database.  
+- 🗂️ **Dynamic API Integration** – Fetches and renders real-time movie data using the TMDB API.  
+- 💾 **AppWrite Backend** – Handles database management, user activity tracking, and trending logic.  
+- 💻 **Responsive UI** – Built in **React** for a clean, adaptive experience across devices.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack  
+**Frontend:** React (Vite), Tailwind  
+**Backend:** Node.js  
+**Database & Auth:** AppWrite  
+**API:** TMDB (The Movie Database)  
+**Deployment:** Netlify  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
